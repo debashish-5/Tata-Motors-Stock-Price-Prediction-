@@ -1,11 +1,12 @@
-<!-- ===== Modern Portfolio-Style README ===== -->
+<!-- ===== Modern Portfolio README ===== -->
 
 <div align="center" style="background: linear-gradient(135deg,#6e8efb,#a777e3); padding: 30px; border-radius: 20px; color: white; font-family: 'Segoe UI', sans-serif;">
 
 <h1 style="font-size: 3em; background: linear-gradient(90deg,#ff6ec4,#7873f5); -webkit-background-clip: text; color: transparent;">
 📈 Tata Motors Stock Price Prediction
 </h1>
-<p style="font-size: 1.2em;">Predicting future stock prices using LSTM and Python</p>
+
+<p style="font-size: 1.2em;">Predicting future stock prices using LSTM Neural Networks</p>
 
 </div>
 
@@ -24,7 +25,7 @@
 
 ---
 
-## 🎨 Skill Progress (UI/UX Style)
+## 🎨 Skill Progress (Animated-style)
 
 | Skill | Level |
 |-------|-------|
@@ -36,31 +37,33 @@
 
 ---
 
-## 🖼️ Project Preview
+## 🖼️ Project Preview (GIF)
 
-![Stock Price Prediction Plot](https://raw.githubusercontent.com/yourusername/yourrepo/main/stock_plot.png)  
-*Real vs Predicted Stock Prices*
+![Stock Prediction GIF](https://media.giphy.com/media/xT9IgG50Fb7Mi0prBC/giphy.gif)  
+*Simulated animation of real vs predicted stock prices*
 
 ---
 
-## 🚀 Workflow
+## 🚀 Workflow (Drag-Card Style)
 
 <div style="display:flex; flex-wrap:wrap; justify-content:center; gap:10px;">
 
-[![Data](https://img.shields.io/badge/DataScience-FF6EC7?style=for-the-badge&logo=apache-spark&logoColor=white)](#)
+[![Data](https://img.shields.io/badge/Data-FF6EC7?style=for-the-badge&logo=apache-spark&logoColor=white)](#)
 [![ML](https://img.shields.io/badge/MachineLearning-36D7B7?style=for-the-badge&logo=tensorflow&logoColor=white)](#)
 [![Web](https://img.shields.io/badge/WebDev-FFDD00?style=for-the-badge&logo=html5&logoColor=black)](#)
 [![Visualization](https://img.shields.io/badge/Visualization-F58025?style=for-the-badge&logo=matplotlib&logoColor=white)](#)
 
 </div>
 
-- Load historical stock data  
-- Split into **train & test**  
-- Scale data with **MinMaxScaler**  
-- Create **x_train / y_train sequences**  
-- Build **4-layer LSTM + Dropout**  
-- Train & predict stock prices  
-- Visualize **real vs predicted**
+**Steps:**
+
+1. Load historical stock data (`Open` price)  
+2. Split into **train & test**  
+3. Normalize using **MinMaxScaler**  
+4. Create **x_train / y_train sequences** for LSTM  
+5. Build **4-layer LSTM + Dropout**  
+6. Train & predict stock prices  
+7. Visualize **real vs predicted**
 
 ---
 
@@ -72,13 +75,12 @@ cd yourrepo
 pip install numpy pandas matplotlib scikit-learn keras tensorflow
 python stock_prediction.py
 ```
-
 ## 🔮 Future Improvements
 
 Trend classification (Up / Down)
 
 Predict multiple stocks
 
-Deploy as interactive Web App/Dashboard
+Live data fetching & real-time prediction
 
-Add live data fetching and real-time prediction
+Deploy as Interactive Web App / Dashboard
