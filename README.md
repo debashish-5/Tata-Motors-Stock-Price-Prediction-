@@ -1,78 +1,91 @@
-<!-- ===== Modern GitHub README ===== -->
+# 📈 Tata Motors Stock Price Prediction
 
-<div align="center" style="background: linear-gradient(135deg,#6e8efb,#a777e3); padding: 30px; border-radius: 20px; color: white; font-family: 'Segoe UI', sans-serif; box-shadow: 0 10px 30px rgba(0,0,0,0.3);">
+![Header Gradient](https://images.unsplash.com/photo-1685165371342-9fa2f0120b4b?fit=crop&w=1200&q=80)
 
-  <!-- Animated Name -->
-  <h1 style="font-size:3em; background: linear-gradient(90deg,#ff6ec4,#7873f5); -webkit-background-clip: text; color: transparent; animation: pulse 2s infinite;">
-    Debashish Parida
-  </h1>
-  <p style="font-size:1.2em; color:#e0e0ff;">Junior Data Scientist | Web Developer | AI Enthusiast</p>
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)]()
+[![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)]()
+[![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)]()
+[![Matplotlib](https://img.shields.io/badge/Matplotlib-F58025?style=for-the-badge&logo=matplotlib&logoColor=white)]()
+[![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white)]()
+[![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)]()
 
-  <!-- Skills Section -->
-  <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 20px; margin-top: 20px;">
+---
 
-    <div style="background: #ffffff33; padding: 15px 25px; border-radius: 15px; width: 120px; text-align:center; cursor: grab; transition: transform 0.3s;">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="50" />
-      <p>Python</p>
-    </div>
+## 💡 Project Overview
 
-    <div style="background: #ffffff33; padding: 15px 25px; border-radius: 15px; width: 120px; text-align:center; cursor: grab; transition: transform 0.3s;">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="50" />
-      <p>JavaScript</p>
-    </div>
+This project predicts **Tata Motors stock prices** using **LSTM Neural Networks**.  
+It analyzes historical stock data and predicts **future prices** based on past 60 days of Open prices.
 
-    <div style="background: #ffffff33; padding: 15px 25px; border-radius: 15px; width: 120px; text-align:center; cursor: grab; transition: transform 0.3s;">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="50" />
-      <p>HTML5</p>
-    </div>
+---
 
-    <div style="background: #ffffff33; padding: 15px 25px; border-radius: 15px; width: 120px; text-align:center; cursor: grab; transition: transform 0.3s;">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="50" />
-      <p>CSS3</p>
-    </div>
+## 🚀 Features
 
-    <div style="background: #ffffff33; padding: 15px 25px; border-radius: 15px; width: 120px; text-align:center; cursor: grab; transition: transform 0.3s;">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" width="50" />
-      <p>Pandas</p>
-    </div>
+- 📊 Predict stock prices with **LSTM**
+- 🔄 Real vs Predicted visualization
+- ⚡ Easy to run Python code
+- 🎯 Works with any stock `.csv` dataset
 
-  </div>
+---
 
-  <!-- Colorful Text Boxes -->
-  <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 20px; margin-top: 30px;">
+## 🎨 Skills & Tech Stack
 
-    <div style="background: linear-gradient(135deg,#f6d365,#fda085); padding: 15px 25px; border-radius: 15px; font-weight:bold; animation: float 3s ease-in-out infinite;">
-      Data Science
-    </div>
+| Skill | Badge |
+|-------|-------|
+| Python | ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) |
+| NumPy | ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white) |
+| Pandas | ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white) |
+| Matplotlib | ![Matplotlib](https://img.shields.io/badge/Matplotlib-F58025?style=for-the-badge&logo=matplotlib&logoColor=white) |
+| TensorFlow | ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white) |
+| Keras | ![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white) |
 
-    <div style="background: linear-gradient(135deg,#a1c4fd,#c2e9fb); padding: 15px 25px; border-radius: 15px; font-weight:bold; animation: float 3s ease-in-out infinite 0.5s;">
-      Machine Learning
-    </div>
+---
 
-    <div style="background: linear-gradient(135deg,#84fab0,#8fd3f4); padding: 15px 25px; border-radius: 15px; font-weight:bold; animation: float 3s ease-in-out infinite 1s;">
-      Web Development
-    </div>
+## 🌈 Modern UI/UX Boxes
 
-  </div>
+| Data Science | Machine Learning | Web Development |
+|--------------|----------------|----------------|
+| ![Data](https://img.shields.io/badge/DataScience-FF6EC7?style=for-the-badge&logo=apache-spark&logoColor=white) | ![ML](https://img.shields.io/badge/MachineLearning-36D7B7?style=for-the-badge&logo=tensorflow&logoColor=white) | ![Web](https://img.shields.io/badge/WebDev-FFDD00?style=for-the-badge&logo=html5&logoColor=black) |
 
-</div>
+*These are colorful "drag-card" style boxes to highlight your skills.*
 
-<!-- ===== Animations ===== -->
-<style>
-@keyframes pulse {
-  0% { transform: scale(1); }
-  50% { transform: scale(1.05); }
-  100% { transform: scale(1); }
-}
+---
 
-@keyframes float {
-  0% { transform: translateY(0px); }
-  50% { transform: translateY(-10px); }
-  100% { transform: translateY(0px); }
-}
+## 📈 Workflow / Drag Structure
 
-div[style*="cursor: grab"]:hover {
-  transform: scale(1.1);
-  background: #ffffff44;
-}
-</style>
+1. Load historical stock data (`Open` price)  
+2. Split into **training & testing sets**  
+3. Normalize data using **MinMaxScaler**  
+4. Create **x_train, y_train sequences** for LSTM  
+5. Build **LSTM model** (4 layers + Dropout)  
+6. Train the model and validate  
+7. Prepare **x_test sequences** for prediction  
+8. Predict and plot **real vs predicted stock prices**
+
+---
+
+## 📊 Results / Visualization
+
+![Predicted vs Real](https://raw.githubusercontent.com/yourusername/yourrepo/main/stock_plot.png)  
+*Replace with your generated plot of real vs predicted stock prices.*
+
+---
+
+## 💻 How to Run
+
+```bash
+git clone https://github.com/yourusername/yourrepo.git
+cd yourrepo
+pip install numpy pandas matplotlib scikit-learn keras tensorflow
+python stock_prediction.py
+```
+
+## 🔮 Future Improvements
+
+Add trend classification (Up / Down)
+
+Predict multiple stocks
+
+Deploy as Web App / Dashboard
+
+
+
