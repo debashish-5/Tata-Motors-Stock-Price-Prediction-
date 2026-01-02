@@ -82,6 +82,3 @@ Live data fetching & real-time prediction
 
 Deploy as Interactive Web App / Dashboard
 
-
-
-
