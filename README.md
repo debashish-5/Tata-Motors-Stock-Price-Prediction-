@@ -70,8 +70,8 @@
 ## 💻 How to Run
 
 ```bash
-git clone https://github.com/yourusername/yourrepo.git
-cd yourrepo
+git clone https://github.com/debashish-5/Tata-Motors-Stock-Price-Prediction.git
+cd Tata-Motors-Stock-Price-Prediction
 pip install numpy pandas matplotlib scikit-learn keras tensorflow
 python stock_prediction.py
 ```
